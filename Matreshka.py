@@ -1,3 +1,5 @@
+layers = int(input())
+
 counter = 0
 def matreshka(n):
     print("I'm Matreshka" + str(n), "I was born")
@@ -10,4 +12,4 @@ def matreshka(n):
         print("Lower Part = ", n)
     print("I'm Matreshka" + str(n), "I died")
 
-matreshka(5)
+matreshka(layers)
